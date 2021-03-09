@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: wangjie
+    password: CSpa2s_is
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: oracle
