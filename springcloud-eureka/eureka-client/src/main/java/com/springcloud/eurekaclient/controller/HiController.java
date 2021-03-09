@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class HiController {
 
     @Value("${server.port}")
-    private String port;
+    private String port ;
 
     @GetMapping("/hi")
     public String hi(){
